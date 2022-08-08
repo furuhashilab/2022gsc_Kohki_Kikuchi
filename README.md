@@ -30,7 +30,7 @@
 
 ## 昨年度資料
 **Githubレポジトリ**
-https://github.com/furuhashilab/2021gsc_Kohki_Kikuchi
+https://github.com/furuhashilab/2021gsc_Kohki_Kikuchi 
 **進捗管理用プロジェクト**  
 https://github.com/furuhashilab/2021gsc_Kohki_Kikuchi/projects/3  
 **最終プレゼン資料**  
