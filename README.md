@@ -29,7 +29,7 @@
 ## グラレコ
 
 ## 昨年度資料
-**Githubレポジトリ**
+**Githubレポジトリ**  
 https://github.com/furuhashilab/2021gsc_Kohki_Kikuchi  
 **進捗管理用プロジェクト**  
 https://github.com/furuhashilab/2021gsc_Kohki_Kikuchi/projects/3  
