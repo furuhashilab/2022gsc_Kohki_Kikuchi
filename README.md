@@ -111,6 +111,8 @@ classDiagram
   Layer "0..*" -- "1" Layout
   Layer "0..*" -- "1" Paint
   ```
+  
+グラフィックレコーディング
 
 <img width="80%" alt="uml_layers_01" src="https://github.com/furuhashilab/2022gsc_Kohki_Kikuchi/blob/main/image/mb_ss_layers_gr.PNG">
 
