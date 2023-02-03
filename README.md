@@ -61,6 +61,7 @@ Githubレポジトリ　[StyleSpecification4mapbox/Layers](https://github.com/fu
 
 UMLクラス図
 
+```mermaid
 classDiagram
   class Style {
     +layers: Layer[]
@@ -107,6 +108,7 @@ classDiagram
   Layer "0..*" -- "1" Source
   Layer "0..*" -- "1" Layout
   Layer "0..*" -- "1" Paint
+  ```
 
 <img width="80%" alt="uml_layers_01" src="https://github.com/furuhashilab/2021gsc_Kohki_Kikuchi/blob/9d1cab7154cf27f8b7dba5427592b587fa7a98a4/uml_layers_01.png">
 
