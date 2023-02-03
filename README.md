@@ -133,7 +133,7 @@ classDiagram
 **Githubレポジトリ**  
 https://github.com/furuhashilab/2022gsc_Kohki_Kikuchi  
 **進捗管理用プロジェクト**  
-https://github.com/furuhashilab/2021gsc_Kohki_Kikuchi/projects/3  
+https://github.com/orgs/furuhashilab/projects/27/views/1  
 **最終プレゼン資料**  
 https://docs.google.com/presentation/d/13QyPYV9XP0rMW9lBEhvvMw2V1saTevBbOVW-3ukvOms/edit?usp=sharing    
 **参考文献リスト**   
