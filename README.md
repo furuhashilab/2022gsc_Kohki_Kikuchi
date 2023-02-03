@@ -155,4 +155,4 @@ https://docs.google.com/spreadsheets/d/1LZPnsnPRdWjBaV5Ot01X83DJXEIk3v2-w4xsitTt
 **「Mapbox GL JS Style Specification」日本語版　Githubレポジトリ**  
 https://github.com/furuhashilab/StyleSpecification4mapbox/blob/ed5cd80c0f0872f9057f81ea1e251339c9d272d4/Layers.md  
 **Medium**  
-https://medium.com/furuhashilab/2021%E5%B9%B4%E5%BA%A6%E3%82%BC%E3%83%9F%E8%AB%96-mapbox-gl-js-style-specification%E3%81%AE%E6%97%A5%E6%9C%AC%E8%AA%9E%E8%A8%B3%E4%BD%9C%E6%88%90%E3%81%A8%E5%9B%B3%E5%BC%8F%E5%8C%96-5ad5afb1557d
+https://medium.com/furuhashilab/%E5%AE%8C%E6%88%90-mapbox-gl-js-style-specification-layers-%E6%97%A5%E6%9C%AC%E8%AA%9E%E7%89%88-a25555d751fc
