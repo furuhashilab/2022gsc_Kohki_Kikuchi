@@ -28,23 +28,23 @@ Githubレポジトリ[「StyleSpecification4mapbox」](https://github.com/furuha
 
 <img width="70%" alt="mb_ss_j_miss" src="https://github.com/furuhashilab/2022gsc_Kohki_Kikuchi/blob/main/image/mb_ss_j_miss.png">
 
-<img width="70%" alt="gt_01" src="https://github.com/furuhashilab/2021gsc_Kohki_Kikuchi/blob/8989977e2c36a2d8ec6dcf70e5694c099ea5abe4/gt_01.png">
+<img width="70%" alt="gt_01" src="https://github.com/furuhashilab/2022gsc_Kohki_Kikuchi/blob/main/image/gt_01.png">
 
 - 各タイトルやワードには原文と同様のリンクを付け、Mapboxのページに移動できるようにする。
 
-<img width="70%" alt="mb_ss_j_link" src="https://github.com/furuhashilab/2021gsc_Kohki_Kikuchi/blob/8989977e2c36a2d8ec6dcf70e5694c099ea5abe4/mb_ss_j_link.png">
+<img width="70%" alt="mb_ss_j_link" src="https://github.com/furuhashilab/2022gsc_Kohki_Kikuchi/blob/main/image/mb_ss_j_link.png">
 
 - 列挙型で用いられる"visible"や"none"のようなワード、ブルー値で用いられる"true"と"false"、文字列の配列で用いられる"visible"や "none"等のワードは開発の際にそのまま使用することを考慮し、原文の通りに記載する。
 
-<img width="70%" alt="mb_ss_j_word" src="https://github.com/furuhashilab/2021gsc_Kohki_Kikuchi/blob/8989977e2c36a2d8ec6dcf70e5694c099ea5abe4/mb_ss_j_word.png">
+<img width="70%" alt="mb_ss_j_word" src="https://github.com/furuhashilab/2022gsc_Kohki_Kikuchi/blob/main/image/mb_ss_j_word.png">
 
 - 日本語に適当な言葉がない場合は、固有名詞か否かによって翻訳が異なる。固有名詞の場合は原文のまま英語表記を用いる。一般名詞の場合はカタカナ表記を用いる。
 
-<img width="70%" alt="mb_ss_j_word" src="https://github.com/furuhashilab/2021gsc_Kohki_Kikuchi/blob/8989977e2c36a2d8ec6dcf70e5694c099ea5abe4/mb_ss_j_word.png">
+<img width="70%" alt="mb_ss_j_word" src="https://github.com/furuhashilab/2022gsc_Kohki_Kikuchi/blob/main/image/mb_ss_j_words.png">
 
 - 開発時にコードとして書き込むワードにはバッククォート機能を用いる。
 
-<img width="70%" alt="mb_ss_j_word" src="https://github.com/furuhashilab/2021gsc_Kohki_Kikuchi/blob/8989977e2c36a2d8ec6dcf70e5694c099ea5abe4/mb_ss_j_word.png">
+<img width="70%" alt="mb_ss_j_word" src="https://github.com/furuhashilab/2022gsc_Kohki_Kikuchi/blob/main/image/mb_ss_j_back.png">
 
 ### ②「Mapbox GL JS Style Specification - Layers」の図式化
 
