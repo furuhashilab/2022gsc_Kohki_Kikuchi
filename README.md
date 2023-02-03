@@ -42,14 +42,16 @@ Githubレポジトリ[「StyleSpecification4mapbox」](https://github.com/furuha
 
 <img width="70%" alt="mb_ss_j_word" src="https://github.com/furuhashilab/2021gsc_Kohki_Kikuchi/blob/8989977e2c36a2d8ec6dcf70e5694c099ea5abe4/mb_ss_j_word.png">
 
+- 開発時にコードとして書き込むワードにはバッククォート機能を用いる。
+
+<img width="70%" alt="mb_ss_j_word" src="https://github.com/furuhashilab/2021gsc_Kohki_Kikuchi/blob/8989977e2c36a2d8ec6dcf70e5694c099ea5abe4/mb_ss_j_word.png">
+
 ### ②「Mapbox GL JS Style Specification - Layers」の図式化
 
 図式化の取り組みとしては、以下の２つである。
 
 - 「UML 2 クラス図の概要[^2]」を参照し、UMLクラス図の形式に則り、「Mapbox GL JS Style Specification - Layers」の図式化を行う。図の作成にはChatGPTを利用する。正式な形式に近づけるため、図は英語表記にする。
 [^2]:Scott W. Ambler. “UML 2 クラス図の概要”. アジャイルモデリング(AM) 公式サイト. 2003. https://www.ogis-ri.co.jp/otc/swec/process/am-res/am/artifacts/classDiagram.html#DesignClassDiagrams, (参照 2022-2-3).
-
-<img width="70%" alt="canva_01" src="https://github.com/furuhashilab/2021gsc_Kohki_Kikuchi/blob/54ceacd0a529b718793b724247176fbedc7839a0/canva_01.png">
 
 - より視覚的に理解を促すため、グラフィックレコーディング形式で図式化を行う。図の作成には、手書き・ibisPaintX を併用する。こちらは日本語訳のリポジトリを読む際に補助的な役割を果たすため、日本語で制作する。
 
