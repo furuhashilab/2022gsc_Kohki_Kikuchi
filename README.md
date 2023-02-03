@@ -64,7 +64,7 @@ Githubレポジトリ　[StyleSpecification4mapbox/Layers](https://github.com/fu
 UMLクラス図
 
 ```mermaid
-%%{init:{'theme':'natural'}}%%
+%%{init:{'theme':'base'}}%%
 classDiagram
   class Style {
     +layers: Layer[]
