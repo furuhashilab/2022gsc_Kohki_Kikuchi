@@ -112,7 +112,7 @@ classDiagram
   Layer "0..*" -- "1" Paint
   ```
 
-<img width="80%" alt="uml_layers_01" src="https://github.com/furuhashilab/2021gsc_Kohki_Kikuchi/blob/9d1cab7154cf27f8b7dba5427592b587fa7a98a4/uml_layers_01.png">
+<img width="80%" alt="uml_layers_01" src="https://github.com/furuhashilab/2022gsc_Kohki_Kikuchi/blob/main/image/mb_ss_layers_gr.PNG">
 
 ## Discussion
 
