@@ -17,6 +17,34 @@
 
 ## Methods　　
 
+本研究で行うことは以下の2つである。
+  
+### ①「Mapbox GL JS Style Specification - Layers」の日本語訳の作成
+
+Githubレポジトリ[「StyleSpecification4mapbox」](https://github.com/furuhashilab/StyleSpecification4mapbox)内に、「Mapbox GL JS Style Specification[^1] - Layers」の日本語訳をMarkdown形式で作成する。留意点は以下の通り。
+[^1]:Mapox. “Mapbox GL JS Style Specification”. Mapbox Docs. 2022-1-6. https://docs.mapbox.com/mapbox-gl-js/style-spec/, (参照 2022-2-3).
+
+- 作業効率化のため、基本的にGoogle Chromeのページ翻訳ツールを利用する。翻訳結果に異常があった場合は、Google翻訳を使って正しい日本語訳を作成する。
+
+<img width="70%" alt="mb_ss_j_miss" src="https://github.com/furuhashilab/2021gsc_Kohki_Kikuchi/blob/8989977e2c36a2d8ec6dcf70e5694c099ea5abe4/mb_ss_j_miss.png">
+
+<img width="70%" alt="gt_01" src="https://github.com/furuhashilab/2021gsc_Kohki_Kikuchi/blob/8989977e2c36a2d8ec6dcf70e5694c099ea5abe4/gt_01.png">
+
+- 各タイトルやワードには原文と同様のリンクを付け、Mapboxのページに移動できるようにする。
+
+<img width="70%" alt="mb_ss_j_link" src="https://github.com/furuhashilab/2021gsc_Kohki_Kikuchi/blob/8989977e2c36a2d8ec6dcf70e5694c099ea5abe4/mb_ss_j_link.png">
+
+- 列挙型で用いられる"visible"や"none"のようなワード、ブルー値で用いられる"true"と"false"、文字列の配列で用いられる"visible"や "none"等のワードは開発の際にそのまま使用することを考慮し、原文の通りに記載する。
+
+<img width="70%" alt="mb_ss_j_word" src="https://github.com/furuhashilab/2021gsc_Kohki_Kikuchi/blob/8989977e2c36a2d8ec6dcf70e5694c099ea5abe4/mb_ss_j_word.png">
+
+### ②「Mapbox GL JS Style Specification - Layers」の図式化
+
+「UML 2 クラス図の概要[^2]」を参照し、UMLクラス図の形式に則り、「Mapbox GL JS Style Specification - Layers」の図式化を行う。図の作成にはCanva(グラフィックデザインプラットフォーム)を利用する。正式な形式に近づけるため、図は英語表記にする。図はレイヤー構造が視覚的に把握できるよう、配置と配色を構造ごとに変更する。また、オプション機能にはアイコンを付け、図をシンプルに表現する。
+[^2]:Scott W. Ambler. “UML 2 クラス図の概要”. アジャイルモデリング(AM) 公式サイト. 2003. https://www.ogis-ri.co.jp/otc/swec/process/am-res/am/artifacts/classDiagram.html#DesignClassDiagrams, (参照 2022-2-3).
+
+<img width="70%" alt="canva_01" src="https://github.com/furuhashilab/2021gsc_Kohki_Kikuchi/blob/54ceacd0a529b718793b724247176fbedc7839a0/canva_01.png">
+
 ## Results　　
 
 ## Discussion
