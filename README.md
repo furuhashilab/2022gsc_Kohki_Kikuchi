@@ -141,6 +141,8 @@ ChatGPTは自然言語処理モデルであるため、不確実な側面も否�
 
 ## グラレコ
 
+<img width="80%" alt="uml_layers_01" src="https://github.com/furuhashilab/2022gsc_Kohki_Kikuchi/blob/main/image/2022_gr.PNG">
+
 ## 昨年度資料
 **Githubレポジトリ**  
 https://github.com/furuhashilab/2022gsc_Kohki_Kikuchi  
