@@ -26,7 +26,7 @@ Githubレポジトリ[「StyleSpecification4mapbox」](https://github.com/furuha
 
 - 作業効率化のため、基本的にGoogle Chromeのページ翻訳ツールを利用する。翻訳結果に異常があった場合は、Google翻訳を使って正しい日本語訳を作成する。
 
-<img width="70%" alt="mb_ss_j_miss" src="https://github.com/furuhashilab/2021gsc_Kohki_Kikuchi/blob/8989977e2c36a2d8ec6dcf70e5694c099ea5abe4/mb_ss_j_miss.png">
+<img width="70%" alt="mb_ss_j_miss" src="https://github.com/furuhashilab/2022gsc_Kohki_Kikuchi/blob/main/image/mb_ss_j_miss.png">
 
 <img width="70%" alt="gt_01" src="https://github.com/furuhashilab/2021gsc_Kohki_Kikuchi/blob/8989977e2c36a2d8ec6dcf70e5694c099ea5abe4/gt_01.png">
 
