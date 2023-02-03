@@ -38,14 +38,77 @@ Githubレポジトリ[「StyleSpecification4mapbox」](https://github.com/furuha
 
 <img width="70%" alt="mb_ss_j_word" src="https://github.com/furuhashilab/2021gsc_Kohki_Kikuchi/blob/8989977e2c36a2d8ec6dcf70e5694c099ea5abe4/mb_ss_j_word.png">
 
+- 日本語に適当な言葉がない場合は、固有名詞か否かによって翻訳が異なる。固有名詞の場合は原文のまま英語表記を用いる。一般名詞の場合はカタカナ表記を用いる。
+
+<img width="70%" alt="mb_ss_j_word" src="https://github.com/furuhashilab/2021gsc_Kohki_Kikuchi/blob/8989977e2c36a2d8ec6dcf70e5694c099ea5abe4/mb_ss_j_word.png">
+
 ### ②「Mapbox GL JS Style Specification - Layers」の図式化
 
-「UML 2 クラス図の概要[^2]」を参照し、UMLクラス図の形式に則り、「Mapbox GL JS Style Specification - Layers」の図式化を行う。図の作成にはCanva(グラフィックデザインプラットフォーム)を利用する。正式な形式に近づけるため、図は英語表記にする。図はレイヤー構造が視覚的に把握できるよう、配置と配色を構造ごとに変更する。また、オプション機能にはアイコンを付け、図をシンプルに表現する。
+図式化の取り組みとしては、以下の２つである。
+
+- 「UML 2 クラス図の概要[^2]」を参照し、UMLクラス図の形式に則り、「Mapbox GL JS Style Specification - Layers」の図式化を行う。図の作成にはChatGPTを利用する。正式な形式に近づけるため、図は英語表記にする。
 [^2]:Scott W. Ambler. “UML 2 クラス図の概要”. アジャイルモデリング(AM) 公式サイト. 2003. https://www.ogis-ri.co.jp/otc/swec/process/am-res/am/artifacts/classDiagram.html#DesignClassDiagrams, (参照 2022-2-3).
 
 <img width="70%" alt="canva_01" src="https://github.com/furuhashilab/2021gsc_Kohki_Kikuchi/blob/54ceacd0a529b718793b724247176fbedc7839a0/canva_01.png">
 
+- より視覚的に理解を促すため、グラフィックレコーディング形式で図式化を行う。図の作成には、手書き・ibisPaintX を併用する。こちらは日本語訳のリポジトリを読む際に補助的な役割を果たすため、日本語で制作する。
+
 ## Results　　
+
+Githubレポジトリ　[StyleSpecification4mapbox/Layers](https://github.com/furuhashilab/StyleSpecification4mapbox/blob/fd5ef5c7cfc9304c7b704431d6ab746eb0ad68a5/Layers.md)
+
+<img alt="qr_StyleSpecification4mapbox:Layers" src="https://github.com/furuhashilab/2021gsc_Kohki_Kikuchi/blob/9d1cab7154cf27f8b7dba5427592b587fa7a98a4/qr_StyleSpecification4mapbox:Layers.png">
+
+UMLクラス図
+
+classDiagram
+  class Style {
+    +layers: Layer[]
+    +sources: Source[]
+    +zoom: number
+    +center: number[]
+    +bearing: number
+    +pitch: number
+    +light: Light
+    +sprite: string
+    +glyphs: string
+  }
+  class Layer {
+    +id: string
+    +type: string
+    +source: string
+    +source-layer: string
+    +minzoom: number
+    +maxzoom: number
+    +filter: any[]
+    +layout: Layout
+    +paint: Paint
+  }
+  class Source {
+    +type: string
+    +url: string
+    +tiles: string[]
+    +tileSize: number
+    +bounds: number[]
+    +coordinateTransform: function
+  }
+  class Layout {
+    // specific layout properties depend on layer type
+  }
+  class Paint {
+    // specific paint properties depend on layer type
+  }
+  class Light {
+    +anchor: string
+    +color: string
+    +intensity: number
+  }
+  Style "1" -- "*" Layer
+  Layer "0..*" -- "1" Source
+  Layer "0..*" -- "1" Layout
+  Layer "0..*" -- "1" Paint
+
+<img width="80%" alt="uml_layers_01" src="https://github.com/furuhashilab/2021gsc_Kohki_Kikuchi/blob/9d1cab7154cf27f8b7dba5427592b587fa7a98a4/uml_layers_01.png">
 
 ## Discussion
 
